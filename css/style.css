@@ -77,10 +77,10 @@ ul
     display: none !important;
 } 
 
-.main-content
+ .main-content
 {
     padding-left: 270px;
-}
+} 
 
 .padd-15
 {
@@ -393,7 +393,7 @@ h3.my-profession
 {
     margin: auto;
     border-radius: 5px;
-    height: 500px;
+    height: 300px;
 }
 
 .about .about-content
@@ -598,13 +598,13 @@ h3.my-profession
 {
     padding-bottom: 40px;
 }
-.service .service-item
+ .service .service-item
 {
     flex: 1 1 calc(50% - 30px); 
     max-width: calc(50% - 30px); 
     margin: 0 15px 30px 15px; 
 
-}
+} 
 .service .service-item .service-item-inner
 {
     background-color: var(--bg-black-100);
@@ -865,6 +865,24 @@ h3.my-profession
     }
 }  
 
-
+@media (max-width:300px)
+{   
+    .contact .contact-info-item,
+    .portofolio .portofolio-item,
+    .service .service-item
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img
+    {
+        display: none;
+    }
+}
 
 
