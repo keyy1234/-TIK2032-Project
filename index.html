@@ -4,225 +4,287 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <!--css file  -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/skins/color-1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- stylee switcher -->
+<link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" 
+disabled>
+<link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" 
+disabled>
+<link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" 
+disabled>
+<link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" 
+disabled>
+<link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" 
+disabled>
+<link rel="stylesheet" href="css/style-switcher.css">
 </head>
 <body>
     <!-- main countainer start -->
-    <div>
+    <div class="main-countainer">
         <!-- aside start -->
-        <div>
-            <div>
+        <div class="aside">
+            <div class="logo">
+    
                 <a href="#"><span>X</span>yren</a>
             </div>
-            <div>
+            <div class="nav-toggler">
                 <span></span>
             </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#blog"><i class="fa fa-list"></i> Blog</a></li>
+                <li><a href="#gallery"><i class="fa fa-briefcase"></i> Gallery</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
             </ul>
         </div>
         <!-- aside end -->
         <!-- main content start -->
+        <div class="main-content">
             <!-- home section start -->
-            <section  id="home">
-                <div>
-                    <div>
-                        <div>
-                            <h3>Hallo, nama saya <span>Dafa Khairu Fadillah Wantasen</span></h3>
-                            <h4>Saya Adalah Mahasiswa Teknik Informatika</h2> <p>di universitas Sam Ratulangi Manado</p>
-                            
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Hello, nama saya <span class="name">Dafa Wantasen</span></h3>
+                            <h3 class="my-profession">Mahasiswa <span class="typing">Teknik Informatika</span></h3>
+                            <p>Saya sedang Kuliah Di Universitas Sam Ratulangi</p>
+                            <a href="#contact" class="btn hire-me">tes</a>
                         </div>
-                            <img src="images/IMG20230430170625.jpg" width="150px">
-                    </div> 
+                       <div class="home-img padd-15">
+                            <img src="images/IMG20230430170630.jpg" alt="">
+                        </div> 
+                    </div>
                 </div>
             </section>
             <!-- home section end  --> 
-            <!-- about section start -->
-            
             <!-- about section end  -->
             <!-- service section start -->
-            <section  id="blog">
-                <div>
-                    <div>
-                        <div>
-                            <h2>Blog</h2>
+            <section class="service section" id="blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Artikel</h2>
                         </div>
                     </div>
-                    <div>
+                    <div class="artikel">
                         <!-- services item start -->
-                        <div>
-                            <div>
-                                <h4>Ronaldo Bawa Al Nassr ke Semifinal Arab Club Champions Cup</h4>
-                                <p>lolos ke semifinal Arab Club Champions Cup setelah mengalahkan Raja Casablanca.  Laga Raja Casablanca vs Al Nassr di Stadion Pangeran Sultan bin Abdul Aziz, Minggu (6/8/2023) malam WIB, berakhir dengan skor 1-3.  
-
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>ELEKTRONIK</h4>
+                                <p>Bahaya Penggunaan Ponsel atau HP untuk Anak
+                                </p>
+                                <a href="artikel4.html">Baca Selengkapnya</a>
+                            </div>
+                        </div>
+                        <!-- services item end -->
+                         <!-- services item start -->
+                         <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>SENI</h4>
+                                <p>Ungkapan Kreativitas Manusia yang Abadi
                                 </p>
                                 <a href="artikel1.html">Baca Selengkapnya</a>
                             </div>
                         </div>
                         <!-- services item end -->
-                        <!-- services item end -->
                          <!-- services item start -->
-                         <div>
-                            <div>
-                                <div>
-                                    <i></i>
+                         <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
                                 </div>
-                                <h4>Hasil Uji Coba: MU Butuh Gol Menit Akhir untuk Tahan Imbang Bilbao</h4>
-                                <p>Hasil pertandingan uji coba pramusim antara Manchester United vs Athletic Bilbao, Minggu (06/08/23), berakhir dengan skor imbang 1-1.
-
-                                    Sejak peluit tanda pertandingan dibunyikan, Manchester United yang tampil dengan sebagian pemain seniornya, tampil menekan ke pertahanan Athletic Bilbao.
+                                <h4>CODING</h4>
+                                <p>Mendalami Dunia Teknologi Informasi
                                 </p>
                                 <a href="artikel2.html">Baca Selengkapnya</a>
                             </div>
                         </div>
                         <!-- services item end -->
                          <!-- services item start -->
-                         <div>
-                            <div>
-                                <div>
-                                    <i></i>
+                         <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
                                 </div>
-                                <h4>Kalahkan City via Adu Penalti, Arsenal Juara Community Shield 2023</h4>
-                                <p> Arsenal menjuarai trofi FA Community Shield musim 2023/24 setelah menang adu penalti 4-1 atas Manchester City di Stadion Wembley pada Minggu (06/8) malam WIB. 
-                                    Kedua tim bermain imbang 1-1 hingga babak kedua berakhir.
+                                <h4>OLAHRAGA</h4>
+                                <p>Kalahkan City via Adu Penalti, Arsenal Juara Community Shield 2023
                                 </p>
                                 <a href="artikel3.html">Baca Selengkapnya</a>
                             </div>
                         </div>
+                        <!-- services item end -->
+                         <!-- services item start -->
                         <!-- services item end -->
                     </div>
                 </div>
             </section>
             <!-- service section end   -->
              <!-- portofolio section start   -->
-             <section id="gallery">
-                <div>
-                    <div>
-                        <div>
+             <section class="portofolio section" id="gallery">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
                             <h2>Gallery</h2>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <h2>My Gallery :</h2>
+                    <div class="row">
+                        <div class="portofolio-heading padd-15">
+                            <h2></h2>
                         </div>
                     </div>
                     <div class="row">
                         <!-- portofolio item start -->
-                         <!-- portofolio item end -->
-                          <!-- portofolio item start -->
-                        <div>
-                            <div>
-                               <div>
-                                <img src="images/gambar5.jpg" alt="" >
-                               </div> 
-                            </div>
-                        </div>
-                         <!-- portofolio item end -->
-                          <!-- portofolio item start -->
-                        <div>
-                            <div>
-                               <div>
-                                <img src="images/gambar6.jpg" alt="">
-                               </div> 
-                            </div>
-                        </div>
-                         <!-- portofolio item end -->
-                          <!-- portofolio item start -->
-                        <div>
-                            <div>
-                               <div>
+                        <div class="portofolio-item padd-15">
+                            <div class="portofolio-item-inner shadow-dark">
+                               <div class="portofolio-img">
                                 <img src="images/gambar3.jpg" alt="">
                                </div> 
                             </div>
                         </div>
                          <!-- portofolio item end -->
                           <!-- portofolio item start -->
+                        <div class="portofolio-item padd-15">
+                            <div class="portofolio-item-inner shadow-dark">
+                               <div class="portofolio-img">
+                                <img src="images/gambar5.jpg" alt="">
+                               </div> 
+                            </div>
+                        </div>
+                         <!-- portofolio item end -->
+                          <!-- portofolio item start -->
+                        <div class="portofolio-item padd-15">
+                            <div class="portofolio-item-inner shadow-dark">
+                               <div class="portofolio-img">
+                                <img src="images/gambar6.jpg" alt="">
+                               </div> 
+                            </div>
+                        </div>
+                         <!-- portofolio item end -->
+                          <!-- portofolio item start -->
+                        <div class="portofolio-item padd-15">
+                            <div class="portofolio-item-inner shadow-dark">
+                               <div class="portofolio-img">
+                                <img src="images/gambar7.jpg" alt="">
+                               </div> 
+                            </div>
+                        </div>
+                         <!-- portofolio item end -->
+                          <!-- portofolio item start -->
+                        <div class="portofolio-item padd-15">
+                            <div class="portofolio-item-inner shadow-dark">
+                               <div class="portofolio-img">
+                                <img src="images/gambar8.jpg" alt="">
+                               </div> 
+                            </div>
+                        </div>
+                         <!-- portofolio item end -->
+                          <!-- portofolio item start -->
+                        <div class="portofolio-item padd-15">
+                            <div class="portofolio-item-inner shadow-dark">
+                               <div class="portofolio-img">
+                                <img src="images/gambar10.jpg" alt="">
+                               </div> 
+                            </div>
+                        </div>
                          <!-- portofolio item end -->
                     </div>
                 </div>
              </section>
              <!-- portofolio section end   -->
              <!-- contact section start  -->
-             <section id="contact">
-                <div>
-                    <div>
-                        <div>
+             <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
                             <h2>Contact Me</h2>
                         </div>
                     </div>
-                    <h3>Have You Any Questions</h3>
-                    <h4>I'M AT YOUR SERVICES</h4>
+                    <h3 class="contact-title padd-15">Have You Any Questions</h3>
+                    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
                     <div class="row">
                         <!-- contact info item start -->
-                        <div>
-                            <h4>Call Us On</h4>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Me On</h4>
                             <p>+6295627448146</p>
                         </div>
                         <!-- contact info item end -->
                         <!-- contact info item start -->
-                        <div>
-                            <h4>Office</h4>
-                            <p>Minanga Indah</p>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Alamat</h4>
+                            <p>Kampung Minanga(Campina)</p>
                         </div>
                         <!-- contact info item end -->
                         <!-- contact info item start -->
-                        <div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
                             <h4>Email</h4>
                             <p>dafawantasen19@gmail.com</p>
                         </div>
                         <!-- contact info item end -->
                         <!-- contact info item start -->
-                        <div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
                             <h4>Instagram</h4>
                             <p>@dafa_wntsnn</p>
                         </div>
                         <!-- contact info item end -->
                     </div>
-                    <h3>SEND ME AN EMAIL</h3>
-                    <h4>I'M VERY RESPONSIVE TO MASSAGES</h4>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MASSAGES</h4>
                     <!-- Contact fomrs -->
-                    <div>
-                        <div>
+                    <div class="row">
+                        <div class="contact-form padd-15">
                             <!-- Form for sending message and email -->
-                                <div>
-                                    <div>
-                                        <div>
-                                            <div>
-                                                <div>
-                                                    <input placeholder="Name" name="name">
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="d763eb42-ab71-47a5-9bd0-6adb03e043fa">
+                                <div class="row">
+                                    <div class="contact-form padd-15">
+                                        <div class="row">
+                                            <div class="form-item col-6 padd-15">
+                                                <div class="form-grup">
+                                                    <input type="text" class="form-control" placeholder="Name" name="name">
                                                 </div>
                                             </div>
-                                            <div>
-                                                <div>
-                                                    <input placeholder="Email" name="email">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div class=>
-                                                <div>
-                                                    <input placeholder="Subject" name="subject">
+                                            <div class="form-item col-6 padd-15">
+                                                <div class="form-grup">
+                                                    <input type="email" class="form-control" placeholder="Email" name="email">
                                                 </div>
                                             </div>
                                         </div>
-                                        <div>
-                                            <div>
-                                                <div>
+                                        <div class="row">
+                                            <div class="form-item col-12 padd-15">
+                                                <div class="form-grup">
+                                                    <input type="text" class="form-control" placeholder="Subject" name="subject">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-item col-12 padd-15">
+                                                <div class="form-grup">
                                                     <textarea name="message" class="form-control" id="" placeholder="Message"></textarea>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div>
-                                            <div>
-                                                <button type="submit">Send Message</button>
+                                        <div class="row">
+                                            <div class="form-item col-12 padd-15">
+                                                <button type="submit" class="btn">Send Message</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                        
+                            </form> 
                         </div>
                     </div>
                 </div>
@@ -231,5 +293,14 @@
         </div>
         <!-- main content end -->
     </div>
+    <!-- main countainer end -->
+    <!-- style switcher start -->
+    
+      <!-- style switcher end
+      js file  -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+    referrerpolicy="no-referrer"></script> -->
+    <!-- <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script> -->
 </body>
 </html>
