@@ -210,7 +210,7 @@ ul
 {
     position: absolute;
     top: 50px;
-    font-size:  30px;
+    font-size: 10px;
     text-transform: capitalize;
 
 }
@@ -219,7 +219,7 @@ ul
     color: var(--text-black-900);
     font-weight: 700;
     padding: 15px 20px;
-    font-size: 50px;
+    font-size: 30px;
     letter-spacing: 5px;
     position: relative;
 }
@@ -371,7 +371,7 @@ h3.my-profession
     color: var(--skin-color);
 }
 .home-info.padd-15 {
-    margin-top: 40px; /* Menambah jarak 20px di bagian atas elemen */
+    margin-top: 36px; /* Menambah jarak 20px di bagian atas elemen */
 }
 
 .home-info p{
