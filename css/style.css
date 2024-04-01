@@ -88,7 +88,7 @@ ul
 }
 .padd-15
 {
-    padding-left: 15px;
+    padding-left: -15px;
     padding-right: 15px;
 }
  .main-content
@@ -146,20 +146,18 @@ ul
 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     margin-right: -15px;
     position: relative;
     margin-top: 30px;
 }
-/* .row-home
+ .row-home
 {
-    display: flex;
-    flex-wrap: wrap; 
     margin-left: 15px;
     margin-right: -15px;
     position: relative;
     margin-top: 30px;
-} */
+} 
 
 .artikel
 {
@@ -345,11 +343,11 @@ ul
     display: flex;
     color: var(--text-black-900);
 }
-.home .home-info
+/* .home .home-info
 {
     flex: 0 0 60%;
     max-width: 600%;
-} 
+}  */
 h3.hello
 {
     font-size: 28px;
@@ -755,12 +753,12 @@ h3.my-profession
     color: var(--text-black-700);
     font-weight: 400;
 }
-.contact .contact-form
-{
-    flex: 0 0 100%; 
-    text-align: center;
+.contact .contact-form {
+    flex: 0 0 100%;
     max-width: 100%;
+    margin: 0 auto; /* Mengatur margin atas dan bawah menjadi 0, dan sisi kiri dan kanan menjadi auto */
 }
+
 .contact .contact-form .col-6
 {
     flex: 0 0 50%;
@@ -851,15 +849,15 @@ h3.my-profession
         flex: 0 10 100%;
         max-width: 100%;
     }
-    .home .home-info
+    /* .home .home-info
     {
         flex: 0 0 50%;
-        max-width: 100%;
-    }
-    .home .home-img
+        max-width: 50%;
+    } */
+    /* .home .home-img
     {
         display: none;
-     } 
+     }  */
 } 
 @media (max-width:767px)
 {    
