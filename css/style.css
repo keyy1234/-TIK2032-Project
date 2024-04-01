@@ -350,13 +350,13 @@ ul
 }  */
 h3.hello
 {
-    font-size: 30px;
+    font-size: 35px;
     margin: 15px 0;
 }
 h3.hello span
 {
     font-family: 'clicker script', cursive;
-    font-size: 32px;
+    font-size: 45px;
     font-weight: 700;
     color: var(--skin-color);
 }
@@ -371,7 +371,7 @@ h3.my-profession
     color: var(--skin-color);
 }
 .home-info.padd-15 {
-    margin-top: 80px; /* Menambah jarak 20px di bagian atas elemen */
+    margin-top: 40px; /* Menambah jarak 20px di bagian atas elemen */
 }
 
 .home-info p{
