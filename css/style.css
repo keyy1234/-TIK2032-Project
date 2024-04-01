@@ -142,6 +142,7 @@ ul
     left: 0;
     margin-top: 8px;
 } 
+/* =================================================rrrrrowww====================================================================================== */
 .row
 {
     display: flex;
@@ -150,6 +151,45 @@ ul
     margin-right: -15px;
     position: relative;
     margin-top: 30px;
+}
+.row-blog
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 15px; */
+    margin-right: -15px;
+    position: relative;
+    margin-top: -40px;
+
+}
+.row-gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 15px; */
+    margin-right: -15px;
+    position: relative;
+    margin-top: -40px;
+
+}
+.row-gallery-c
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 15px; */
+    margin-right: -15px;
+    position: relative;
+    /* margin-top: 30px; */
+}
+.row-contact
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 15px; */
+    margin-right: -15px;
+    position: relative;
+    margin-top: -40px;
+
 }
  .row-home
 {
@@ -166,7 +206,7 @@ ul
     /* margin-left: -15px; */
     margin-right: -15px;
     position: relative;
-    margin-top: 30px;
+    margin-top: 3px;
 }
 .btn
 {
