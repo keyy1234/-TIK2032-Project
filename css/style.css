@@ -163,10 +163,10 @@ ul
 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
+    /* margin-left: -15px; */
     margin-right: -15px;
     position: relative;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 .btn
 {
@@ -350,39 +350,44 @@ ul
 }  */
 h3.hello
 {
-    font-size: 28px;
+    font-size: 30px;
     margin: 15px 0;
 }
 h3.hello span
 {
     font-family: 'clicker script', cursive;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     color: var(--skin-color);
 }
 h3.my-profession
 {
-    font-size: 30px;
+    font-size: 25px;
     margin: 15px 0;
 }
 .typing
 {
-    font-size: 20px;
+    font-size: 23px;
     color: var(--skin-color);
 }
+.home-info.padd-15 {
+    margin-top: 80px; /* Menambah jarak 20px di bagian atas elemen */
+}
+
 .home-info p{
     margin-bottom: 70px;
-    font-size: 25px;
+    font-size: 20px;
     color: var(--text-black-700);
     font-family: serif;
 }
-.home .home-img
-{
+.home .home-img {
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
+    margin-left: auto; /* Menggeser elemen ke kanan */
 }
+
 .home-img::after
 {
     content: '';
@@ -682,7 +687,8 @@ h3.my-profession
 {
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 1px;
+    
 }
 .portofolio .portofolio-heading h2
 {
@@ -854,10 +860,10 @@ h3.my-profession
         flex: 0 0 50%;
         max-width: 50%;
     } */
-    /* .home .home-img
+     .home .home-img
     {
         display: none;
-     }  */
+     }  
 } 
 @media (max-width:767px)
 {    
