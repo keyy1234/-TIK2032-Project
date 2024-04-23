@@ -24,6 +24,10 @@ body
     font-size: 16px;
     font-family: 'poppins' sans-serif;
 }
+.main-content
+{
+    padding-left: 30px;
+}
 *
 {
     margin: 0;
@@ -46,21 +50,20 @@ ul
     min-height: 100vh;
     display: block;
     
-    padding: 0 30px;
-    left: 270px;
+    padding: 0 80px; 
+    /* 30 */
    
     opacity: 1;
-    /* position: fixed;
-    left: 270px;
+    position: fixed;
+    left: 240px;
     top: 0;
     right: 0;
     bottom: 0;
     z-index: 0;
     overflow-y: auto;
     overflow-x: hidden;
-    transition: all 0.3s ease; */
+    transition: all 0.3s ease;
 }
-
 .section.back-section
 {
     z-index: 1;
@@ -88,13 +91,9 @@ ul
 }
 .padd-15
 {
-    padding-left: -15px;
+    padding-left: 15px;
     padding-right: 15px;
 }
- .main-content
-{
-    padding-left: 230px;
-} 
 .container
 {
     max-width: 1100px;
@@ -142,71 +141,21 @@ ul
     left: 0;
     margin-top: 8px;
 } 
-/* =================================================rrrrrowww====================================================================================== */
 .row
 {
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: 15px; */
+    margin-left: -15px; 
     margin-right: -15px;
     position: relative;
-    margin-top: 30px;
 }
-.row-blog
+.row-home
 {
-    display: flex;
-    flex-wrap: wrap;
-    /* margin-left: 15px; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin-left: -45px;
     margin-right: -15px;
     position: relative;
-    margin-top: -40px;
-
-}
-.row-gallery
-{
-    display: flex;
-    flex-wrap: wrap;
-    /* margin-left: 15px; */
-    margin-right: -15px;
-    position: relative;
-    margin-top: -40px;
-
-}
-.row-gallery-c
-{
-    display: flex;
-    flex-wrap: wrap;
-    /* margin-left: 15px; */
-    margin-right: -15px;
-    position: relative;
-    /* margin-top: 30px; */
-}
-.row-contact
-{
-    display: flex;
-    flex-wrap: wrap;
-    /* margin-left: 15px; */
-    margin-right: -15px;
-    position: relative;
-    margin-top: -40px;
-
-}
- .row-home
-{
-    margin-left: 15px;
-    margin-right: -15px;
-    position: relative;
-    margin-top: 30px;
-} 
-
-.artikel
-{
-    display: flex;
-    flex-wrap: wrap;
-    /* margin-left: -15px; */
-    margin-right: -15px;
-    position: relative;
-    margin-top: 3px;
 }
 .btn
 {
@@ -232,7 +181,7 @@ ul
 
 .aside
 {
-    width: 230px;
+    width: 240px;
     background: var(--bg-black-100);
     position: fixed;
     left: 0;
@@ -250,7 +199,7 @@ ul
 {
     position: absolute;
     top: 50px;
-    font-size: 10px;
+    font-size:  30px;
     text-transform: capitalize;
 
 }
@@ -259,7 +208,7 @@ ul
     color: var(--text-black-900);
     font-weight: 700;
     padding: 15px 20px;
-    font-size: 30px;
+    font-size: 50px;
     letter-spacing: 5px;
     position: relative;
 }
@@ -380,55 +329,55 @@ ul
 
 .home
 {
+    /* min-width: 100vh; */
     display: flex;
     color: var(--text-black-900);
+    /* padding-left: 30px; */
 }
-/* .home .home-info
+.home .home-info
 {
     flex: 0 0 60%;
     max-width: 600%;
-}  */
+} 
 h3.hello
 {
-    font-size: 35px;
+    font-size: 28px;
+    /* 28 font */
     margin: 15px 0;
 }
 h3.hello span
 {
     font-family: 'clicker script', cursive;
-    font-size: 45px;
+    font-size: 30px;
+    /* 40 font */
     font-weight: 700;
     color: var(--skin-color);
 }
 h3.my-profession
 {
-    font-size: 25px;
+    font-size: 24px;
     margin: 15px 0;
 }
 .typing
 {
-    font-size: 23px;
+    font-size: 20px;
     color: var(--skin-color);
 }
-.home-info.padd-15 {
-    margin-top: 36px; /* Menambah jarak 20px di bagian atas elemen */
-}
-
 .home-info p{
     margin-bottom: 70px;
-    font-size: 20px;
+    font-size: 15px;
+    /* 25 font */
     color: var(--text-black-700);
     font-family: serif;
 }
-.home .home-img {
+.about .home-img
+{
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
-    margin-left: auto; /* Menggeser elemen ke kanan */
 }
-
-.home-img::after
+/* .home-img::after
 {
     content: '';
     position: absolute;
@@ -449,13 +398,32 @@ h3.my-profession
     border-left: 10px solid var(--skin-color);
     left: -20px;
     top: -40px;
-}
-.home .home-img img
-{
-    margin: auto;
+} */
+.about .home-img img {
+    padding-left: 600px;
     border-radius: 5px;
     height: 400px;
+    margin-top: -175px; /* Geser ke atas dengan nilai negatif */
 }
+
+.git_hub {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 12px; /* Mengurangi padding agar elemen menjadi lebih kecil */
+        color: white;
+        border-radius: 50%; /* Membuat elemen menjadi bulat */
+        display: inline-flex; /* Menggunakan flexbox untuk mengatur tata letak */
+        justify-content: center; /* Mengatur posisi horizontal ke tengah */
+        align-items: center; /* Mengatur posisi vertikal ke tengah */
+        white-space: nowrap;
+        border: none;
+        background: var(--skin-color);
+        transition: all 0.3s ease;
+        width: 50px; /* Mengatur dimensi lebar */
+        height: 50px; /* Mengatur dimensi tinggi */
+        margin-top: -60px; /* Menggeser elemen ke atas sejauh 20 piksel */
+        margin-left: 17px;
+    }
 
 .about .about-content
 {
@@ -661,10 +629,9 @@ h3.my-profession
 }
 .service .service-item
 {
-    flex: 1 1 calc(50% - 30px);
-    max-width: calc(50% - 30px); 
-    margin: 0 15px 30px 15px; 
-
+    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
 }
 .service .service-item .service-item-inner
 {
@@ -727,8 +694,7 @@ h3.my-profession
 {
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 1px;
-    
+    margin-bottom: 40px;
 }
 .portofolio .portofolio-heading h2
 {
@@ -799,12 +765,11 @@ h3.my-profession
     color: var(--text-black-700);
     font-weight: 400;
 }
-.contact .contact-form {
+.contact .contact-form
+{
     flex: 0 0 100%;
     max-width: 100%;
-    margin: 0 auto; /* Mengatur margin atas dan bawah menjadi 0, dan sisi kiri dan kanan menjadi auto */
 }
-
 .contact .contact-form .col-6
 {
     flex: 0 0 50%;
@@ -852,11 +817,7 @@ h3.my-profession
 {
     .aside
     {
-        left: -230px;
-    }
-    .main-content
-    {
-        padding-left: 0;
+        left: -270px;
     }
     .aside.open
     {
@@ -865,7 +826,7 @@ h3.my-profession
     .aside .nav-toggler
     {
         display: flex;
-        left: 30px;
+        left: 20px;
     }
     .aside .nav-toggler.open
     {
@@ -877,7 +838,10 @@ h3.my-profession
     }
     .section.open
     {
-        left: 230px;
+        left: 100px;
+    }
+    .about .home-img img {
+        margin-top: -265px;
     }
 
     .about .about-content .personal-info .info-item p span
@@ -886,25 +850,35 @@ h3.my-profession
         margin-left: 0;
     }
 }
+@media (max-width:315px)
+{   
+    .home .home-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: small;
+    }
+    
+}
 @media (max-width:991px)
 {   
     .contact .contact-info-item,
     .portofolio .portofolio-item,
     .service .service-item
     {
-        flex: 0 10 100%;
-        max-width: 100%;
-    }
-    /* .home .home-info
-    {
         flex: 0 0 50%;
         max-width: 50%;
-    } */
-     .home .home-img
+    }
+    .home .home-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about .home-img
     {
         display: none;
-     }  
-} 
+    }
+}
 @media (max-width:767px)
 {    
     .contact .contact-form .col-6,
@@ -916,7 +890,20 @@ h3.my-profession
     .about .about-content .skills,
     .about .about-content .personal-info
     {
-        flex: 0 10 100%;
+        flex: 0 0 100%;
         max-width: 100%;
     }
 }  
+
+@media (max-width:400px)
+{
+    h3.hello
+    {
+    font-size: 20px;
+    /* 28 font */
+    margin: 15px 0;
+    }
+}
+
+
+
