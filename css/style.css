@@ -1,5 +1,5 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 :root
 {
     --bg-black-900:#f2f2fc;
@@ -686,6 +686,7 @@ h3.my-profession
     line-height: 25px;
 }
 
+
 .portofolio .container
 {
     padding-bottom: 40px;
@@ -809,7 +810,127 @@ h3.my-profession
 .contact .contact-form .btn
 {
     height: 50px;
-    padding: 0 50px;
+    padding: 0 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.div {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+h1, h2 {
+    text-align: center;
+    color: var(--text-black-900);
+}
+form {
+    width: 100%;
+max-width: 600px;
+margin: 30px auto;  /* Added margin-top to create space above the form */
+background-color: #f9f9f9;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+display: block;
+font-weight: bold;
+margin-bottom: 10px;
+color: #555;
+}
+
+form input[type="text"] {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+form input[type="submit"] {
+background-color: #4CAF50;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+background-color: #45a049;
+}
+
+label {
+    font-weight: bold;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.service-item-inner {
+position: relative;
+padding-bottom: 30px; /* Menambahkan ruang di bawah untuk tombol */
+}
+
+.service-item-inner button {
+display: block;
+margin-top: 10px; /* Menambahkan jarak atas untuk tombol */
+background-color: #e74c3c;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.service-item-inner button:hover {
+background-color: #c0392b;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+}
+/* button:hover {
+    background-color: #4cae4c;
+} */
+.comment {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.comment h4 {
+    margin: 0;
+    color: #5cb85c;
+}
+.comment p {
+    margin: 5px 0;
+    color: var(--text-black-900);
+}
+.comment small {
+    color: #777;
+}
+#comments {
+    margin-top: 20px;
 }
 
 
